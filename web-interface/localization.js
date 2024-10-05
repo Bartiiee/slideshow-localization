@@ -13,6 +13,7 @@ localization["ru"] = {};
 localization["ja"] = {};
 localization["sl"] = {};
 localization["ko"] = {};
+localization["nl"] = {};
 
 localization.en["reboot"] = "Reboot device";
 localization.en["reboot_success"] = "Device was successfully rebooted";
@@ -167,6 +168,17 @@ localization.ko["invalid_file_type"] = "지원되지 않는 파일 유형";
 localization.ko["file_too_big"] = "파일이 너무 큽니다({{filesize}}MB). 최대 크기는 {{maxFilesize}}MB입니다.";
 localization.ko["downloader_info"] = "다운로드에 대한 정보";
 localization.ko["show_file"] = "파일 보기";
+
+localization.nl["reboot"] = "Toestel herstarten";
+localization.nl["reboot_success"] = "Het toestel is succesvol herstart";
+localization.nl["reload"] = "Programma opnieuw laden";
+localization.nl["reload_success"] = "Het programma is met succes opnieuw geladen";
+localization.nl["save"] = "Opslaan";
+localization.nl["drop_to_upload"] = "Klik hier of zet betanden hier neer om ze te uploaden";
+localization.nl["invalid_file_type"] = "Bestandstype wordt niet ondersteund";
+localization.nl["file_too_big"] = "Het bestand is te groot, ({{filesize}} MB), maximum grootte is {{maxFilesize}} MB";
+localization.nl["downloader_info"] = "Informatie rond downloaden";
+localization.nl["show_file"] = "Bestand tonen";
 
 function localizeString(key) {
 	return localization[choosen_language][key];
